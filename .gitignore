@@ -1,0 +1,9 @@
+# MkDocs build directory
+site
+
+# Environment
+venv/
+
+# Cache
+.cache
+__pycache__

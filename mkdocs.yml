@@ -1,0 +1,18 @@
+site_name: Jonathan's Blog
+site_description: A blog for Jonathan to post his thoughts
+site_url: https://mydomain.org/mysite
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+
+plugins:
+  - search
+  - blog:
+      blog_dir: .
+      archive: false
+      categories_allowed:
+        - Tech
+        - Books
+        - Movies
