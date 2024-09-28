@@ -26,6 +26,7 @@ theme:
         name: Switch to system preference
   features:
     - navigation.sections
+    - navigation.footer
 
 plugins:
   - search
@@ -36,3 +37,12 @@ plugins:
         - Tech
         - Books
         - Movies
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/jonathan343
+    - icon: fontawesome/brands/github
+      link: https://github.com/jonathan343
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/jonathang09_
