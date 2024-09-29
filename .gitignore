@@ -1,3 +1,6 @@
+# MacOS
+.DS_Store
+
 # MkDocs build directory
 site
 
@@ -7,3 +10,6 @@ venv/
 # Cache
 .cache
 __pycache__
+
+# VSCode
+.vscode/
