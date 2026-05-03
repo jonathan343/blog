@@ -192,13 +192,6 @@ toggle.icon = "lucide/cloud-sun"
 toggle.name = "Switch to Latte"
 
 [[project.theme.palette]]
-scheme = "catppuccin-latte"
-primary = "custom"
-accent = "custom"
-toggle.icon = "lucide/sun"
-toggle.name = "Switch to Mocha"
-
-[[project.theme.palette]]
 scheme = "catppuccin-mocha"
 primary = "custom"
 accent = "custom"
