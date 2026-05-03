@@ -1,15 +1,5 @@
-# MacOS
-.DS_Store
-
-# MkDocs build directory
+# Zensical
 site
 
-# Environment
-venv/
-
-# Cache
-.cache
-__pycache__
-
-# VSCode
-.vscode/
+# Python Virtual Environment
+.venv
