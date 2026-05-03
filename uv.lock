@@ -7,11 +7,27 @@ name = "blog"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "catppuccin-zensical" },
     { name = "zensical" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "zensical", specifier = ">=0.0.39" }]
+requires-dist = [
+    { name = "catppuccin-zensical", specifier = ">=0.2.0" },
+    { name = "zensical", specifier = ">=0.0.39" },
+]
+
+[[package]]
+name = "catppuccin-zensical"
+version = "0.2.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "zensical" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/61/6a/d644f83866559a1054230241500819f75d7bd84405713a5058b4878d280c/catppuccin_zensical-0.2.0.tar.gz", hash = "sha256:f34e26963b81aca94a1c4a0ecab092396b1a931d17a3321c0b491fba0e143331", size = 5057, upload-time = "2026-05-01T02:03:36.991Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/6d/47/80aebf3e83d2a564b9415bb3c2d3c10017a25016700b451b2d0b46af5f87/catppuccin_zensical-0.2.0-py3-none-any.whl", hash = "sha256:956c65c4272cc0ee4a97974a97c87a6c122daf0ba214b0c4c8178212b126d62b", size = 7193, upload-time = "2026-05-01T02:03:35.726Z" },
+]
 
 [[package]]
 name = "click"
