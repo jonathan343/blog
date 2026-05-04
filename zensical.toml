@@ -4,9 +4,7 @@
 site_name = "Blog"
 site_description = "A new project generated from the default template project."
 site_author = "Jonathan Gaytan"
-
-# TODO: Set when this site get's hosted somewhere.
-#site_url = "https://www.example.com/"
+site_url = "https://blog.jonathangaytan.com/"
 
 
 # Copyright
