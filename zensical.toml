@@ -30,7 +30,7 @@ nav = [
 [project.theme]
 name = "catppuccin"
 
-#custom_dir = "overrides"
+custom_dir = "overrides"
 favicon = "assets/fav.png"
 language = "en"
 
@@ -199,6 +199,12 @@ primary = "custom"
 accent = "custom"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to Macchiato"
+
+# ----------------------------------------------------------------------------
+# Analytics
+# ----------------------------------------------------------------------------
+[project.extra.analytics]
+provider = "custom"
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
