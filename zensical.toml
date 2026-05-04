@@ -15,7 +15,7 @@ Copyright &copy; 2026 <a href="https://jonathangaytan.com" target="_blank">Jonat
 """
 
 nav = [
-  { "About" = "index.md" },
+  { "About Me" = "index.md" },
   { "Projects" = "projects.md" },
   { "Python" = [
       "blog/python/index.md",
