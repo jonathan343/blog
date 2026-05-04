@@ -14,10 +14,14 @@ copyright = """
 Copyright &copy; 2026 <a href="https://jonathangaytan.com" target="_blank">Jonathan Gaytan</a>
 """
 
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+nav = [
+  { "About" = "index.md" },
+  { "Projects" = "projects.md" },
+  { "Python" = [
+      "blog/python/index.md",
+      "blog/python/packaging.md"
+  ]}
+]
 
 #extra_css = ["stylesheets/extra.css"]
 #extra_javascript = ["javascripts/extra.js"]
@@ -132,7 +136,7 @@ features = [
     # When sections are enabled, top-level sections are rendered as groups in
     # the sidebar for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-sections
-    "navigation.sections",
+  #"navigation.sections",
 
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
